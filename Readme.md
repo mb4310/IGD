@@ -14,7 +14,7 @@ The implicit update is instead:
 
 where here we choose use a first-order expansion to approximate <a href="https://www.codecogs.com/eqnedit.php?latex=$\nabla&space;F(x_{n&plus;1})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\nabla&space;F(x_{n&plus;1})" title="$\nabla F(x_{n+1})" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=$\nablda&space;F(x_{n&plus;1})&space;\approx&space;\nabla&space;F(x_n)&space;-&space;H_F(x_{n&plus;1}&space;-&space;x_n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\nablda&space;F(x_{n&plus;1})&space;\approx&space;\nabla&space;F(x_n)&space;-&space;H_F(x_{n&plus;1}&space;-&space;x_n)" title="$\nablda F(x_{n+1}) \approx \nabla F(x_n) - H_F(x_{n+1} - x_n)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=$\nabla&space;F(x_{n&plus;1})&space;\approx&space;\nabla&space;F(x_n)&space;-&space;H_F(x_{n})(x_{n&plus;1}&space;-&space;x_n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\nabla&space;F(x_{n&plus;1})&space;\approx&space;\nabla&space;F(x_n)&space;-&space;H_F(x_{n})(x_{n&plus;1}&space;-&space;x_n)" title="$\nabla F(x_{n+1}) \approx \nabla F(x_n) - H_F(x_{n})(x_{n+1} - x_n)" /></a>
 
 where <a href="https://www.codecogs.com/eqnedit.php?latex=$H_F(\cdot)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$H_F(\cdot)$" title="$H_F(\cdot)$" /></a> denotes the Hessian of F. Now we can simply rearrange to find our update rule:
 
